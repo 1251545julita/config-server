@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          ##uri: file:///C:/Users/jjulita/Downloads/Diplomatura en Fintech MS IA\20261026_Clase18\clase18\config-repo
+          uri: https://github.com/1251545julita/config-repo.git
+
+server:
+  port: 8888
